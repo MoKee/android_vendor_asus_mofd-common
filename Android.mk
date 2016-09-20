@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter z008 z00a,$(TARGET_DEVICE)),)
+ifneq ($(filter Z008 Z00A,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := intel_prop
