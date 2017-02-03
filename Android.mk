@@ -16,17 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter Z008 Z00A z008 z00a,$(TARGET_DEVICE)),)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := intel_prop
-LOCAL_MODULE_OWNER := asus
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := RECOVERY_EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_RECOVERY_ROOT_OUT)/sbin
-LOCAL_SRC_FILES := proprietary/bin/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
+ifneq ($(filter z008 z00a,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := thermald

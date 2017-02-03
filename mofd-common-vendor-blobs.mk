@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libGLESv2.so:system/lib/arm/nb/libGLESv2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libGLESv3.so:system/lib/arm/nb/libGLESv3.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libgui.so:system/lib/arm/nb/libgui.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/nb/libhardware_legacy.so:system/lib/arm/nb/libhardware_legacy.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libhwui.so:system/lib/arm/nb/libhwui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libicui18n.so:system/lib/arm/nb/libicui18n.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libicuuc.so:system/lib/arm/nb/libicuuc.so \
@@ -59,15 +58,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libaudioresampler.so:system/lib/arm/libaudioresampler.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libaudiospdif.so:system/lib/arm/libaudiospdif.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libaudioutils.so:system/lib/arm/libaudioutils.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libbacktrace_libc++.so:system/lib/arm/libbacktrace_libc++.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbacktrace.so:system/lib/arm/libbacktrace.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbase.so:system/lib/arm/libbase.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbcc.so:system/lib/arm/libbcc.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbcinfo.so:system/lib/arm/libbcinfo.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libbinary_parse.so:system/lib/arm/libbinary_parse.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbinder.so:system/lib/arm/libbinder.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libblas.so:system/lib/arm/libblas.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcamera_client.so:system/lib/arm/libcamera_client.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcamera_metadata.so:system/lib/arm/libcamera_metadata.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libcamera2ndk.so:system/lib/arm/libcamera2ndk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcommon_time_client.so:system/lib/arm/libcommon_time_client.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcompiler_rt.so:system/lib/arm/libcompiler_rt.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcrypto.so:system/lib/arm/libcrypto.so \
@@ -75,10 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libc++.so:system/lib/arm/libc++.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcutils.so:system/lib/arm/libcutils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libdl.so:system/lib/arm/libdl.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libdng_sdk.so:system/lib/arm/libdng_sdk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libdrmframework.so:system/lib/arm/libdrmframework.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libeffects.so:system/lib/arm/libeffects.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libEGL.so:system/lib/arm/libEGL.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libemoji.so:system/lib/arm/libemoji.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libETC1.so:system/lib/arm/libETC1.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libexpat.so:system/lib/arm/libexpat.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libFFTEm.so:system/lib/arm/libFFTEm.so \
@@ -86,18 +86,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libfilterpack_imageproc.so:system/lib/arm/libfilterpack_imageproc.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libft2.so:system/lib/arm/libft2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libgabi++.so:system/lib/arm/libgabi++.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libgccdemangle.so:system/lib/arm/libgccdemangle.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libGLES_trace.so:system/lib/arm/libGLES_trace.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv1_CM.so:system/lib/arm/libGLESv1_CM.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv2.so:system/lib/arm/libGLESv2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv3.so:system/lib/arm/libGLESv3.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libgui.so:system/lib/arm/libgui.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libhardware_legacy.so:system/lib/arm/libhardware_legacy.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libhardware.so:system/lib/arm/libhardware.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libharfbuzz_ng.so:system/lib/arm/libharfbuzz_ng.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libhwui.so:system/lib/arm/libhwui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libicui18n.so:system/lib/arm/libicui18n.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libicuuc.so:system/lib/arm/libicuuc.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libimage_type_recognition.so:system/lib/arm/libimage_type_recognition.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libimg_utils.so:system/lib/arm/libimg_utils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libinputflinger.so:system/lib/arm/libinputflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libinput.so:system/lib/arm/libinput.so \
@@ -105,14 +103,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libjpeg.so:system/lib/arm/libjpeg.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libLLVM.so:system/lib/arm/libLLVM.so \
     vendor/asus/mofd-common/proprietary/lib/arm/liblog.so:system/lib/arm/liblog.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/liblz4.so:system/lib/arm/liblz4.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/liblzma.so:system/lib/arm/liblzma.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmediandk.so:system/lib/arm/libmediandk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmedia.so:system/lib/arm/libmedia.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmediautils.so:system/lib/arm/libmediautils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmemtrack.so:system/lib/arm/libmemtrack.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libmemunreachable.so:system/lib/arm/libmemunreachable.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libminikin.so:system/lib/arm/libminikin.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libm.so:system/lib/arm/libm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnativebridge.so:system/lib/arm/libnativebridge.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnativehelper.so:system/lib/arm/libnativehelper.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libnativeloader.so:system/lib/arm/libnativeloader.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnbaio.so:system/lib/arm/libnbaio.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnetd_client.so:system/lib/arm/libnetd_client.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnetutils.so:system/lib/arm/libnetutils.so \
@@ -121,8 +123,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libOpenMAXAL.so:system/lib/arm/libOpenMAXAL.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libOpenSLES.so:system/lib/arm/libOpenSLES.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libopus.so:system/lib/arm/libopus.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libpackagelistparser.so:system/lib/arm/libpackagelistparser.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpcre.so:system/lib/arm/libpcre.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpdfium.so:system/lib/arm/libpdfium.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libpiex.so:system/lib/arm/libpiex.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpixelflinger.so:system/lib/arm/libpixelflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpng.so:system/lib/arm/libpng.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpowermanager.so:system/lib/arm/libpowermanager.so \
@@ -155,29 +159,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libsurfaceflinger.so:system/lib/arm/libsurfaceflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libsync.so:system/lib/arm/libsync.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libsysutils.so:system/lib/arm/libsysutils.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libtiff_directory.so:system/lib/arm/libtiff_directory.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libui.so:system/lib/arm/libui.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libunwind-ptrace.so:system/lib/arm/libunwind-ptrace.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libunwind.so:system/lib/arm/libunwind.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libusbhost.so:system/lib/arm/libusbhost.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libutils.so:system/lib/arm/libutils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libvorbisidec.so:system/lib/arm/libvorbisidec.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libvulkan.so:system/lib/arm/libvulkan.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libwebrtc_audio_coding.so:system/lib/arm/libwebrtc_audio_coding.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libwebviewchromium_plat_support.so:system/lib/arm/libwebviewchromium_plat_support.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
     vendor/asus/mofd-common/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
     vendor/asus/mofd-common/proprietary/bin/fg_conf:system/bin/fg_conf \
-    vendor/asus/mofd-common/proprietary/bin/sl_si_service:system/bin/sl_si_service \
-    vendor/asus/mofd-common/proprietary/bin/customize_service:system/bin/customize_service \
     vendor/asus/mofd-common/proprietary/bin/logcontrol:system/bin/logcontrol \
     vendor/asus/mofd-common/proprietary/etc/permissions/asus.software.zenui.xml:system/etc/permissions/asus.software.zenui.xml \
-    vendor/asus/mofd-common/proprietary/etc/firmware/aac_dec_1495.bin:system/etc/firmware/aac_dec_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/audclass_lib_1495.bin:system/etc/firmware/audclass_lib_1495.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/dfw_sst.bin:system/etc/firmware/dfw_sst.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/fw_sst_1495.bin:system/etc/firmware/fw_sst_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/geq_lib_1495.bin:system/etc/firmware/geq_lib_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/mp3_dec_1495.bin:system/etc/firmware/mp3_dec_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/vtsv_lib_1495.bin:system/etc/firmware/vtsv_lib_1495.bin \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_probes.xml:system/etc/tuning/audio/layout_probes.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_topology.xml:system/etc/tuning/audio/layout_topology.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_types.xml:system/etc/tuning/audio/layout_types.xml \
@@ -190,12 +189,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libicepower.so:system/lib/libicepower.so \
     vendor/asus/mofd-common/proprietary/lib/libtinyprobe.so:system/lib/libtinyprobe.so \
     vendor/asus/mofd-common/proprietary/lib/libevent-listener.so:system/lib/libevent-listener.so \
+    vendor/asus/mofd-common/proprietary/lib/libfs-subsystem.so:system/lib/libfs-subsystem.so \
     vendor/asus/mofd-common/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
     vendor/asus/mofd-common/proprietary/lib/libmodem-audio-collection.so:system/lib/libmodem-audio-collection.so \
     vendor/asus/mofd-common/proprietary/lib/libparameter.so:system/lib/libparameter.so \
     vendor/asus/mofd-common/proprietary/lib/libproperty.so:system/lib/libproperty.so \
     vendor/asus/mofd-common/proprietary/lib/libinterface-provider.so:system/lib/libinterface-provider.so \
     vendor/asus/mofd-common/proprietary/lib/libmamgr-xmm.so:system/lib/libmamgr-xmm.so \
+    vendor/asus/mofd-common/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/asus/mofd-common/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/asus/mofd-common/proprietary/lib/parameter-framework-plugins/Audio/libremoteparameter-subsystem.so:system/lib/parameter-framework-plugins/Audio/libremoteparameter-subsystem.so \
     vendor/asus/mofd-common/proprietary/lib/parameter-framework-plugins/Audio/libtinyalsa_custom-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyalsa_custom-subsystem.so \
@@ -205,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so \
     vendor/asus/mofd-common/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
     vendor/asus/mofd-common/proprietary/lib/parameter-framework-plugins/Route/libroute-subsystem.so:system/lib/parameter-framework-plugins/Route/libroute-subsystem.so \
-    vendor/asus/mofd-common/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
     vendor/asus/mofd-common/proprietary/lib/soundfx/liblpepreprocessing.so:system/lib/soundfx/liblpepreprocessing.so \
     vendor/asus/mofd-common/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/mofd-common/proprietary/vendor/etc/route_criteria.conf:system/vendor/etc/route_criteria.conf \
@@ -295,6 +295,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libtbd.so:system/lib/libtbd.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_DIT_Manager.so:system/lib/libxditk_DIT_Manager.so \
+    vendor/asus/mofd-common/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
     vendor/asus/mofd-common/proprietary/media/cameraConfig/style.cng:system/media/cameraConfig/style.cng \
@@ -306,13 +307,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x8-0x5.drvb:system/vendor/firmware/00imx135-0-0x8-0x5.drvb \
     vendor/asus/mofd-common/proprietary/vendor/firmware/00ov8830-0-0x2-0.drvb:system/vendor/firmware/00ov8830-0-0x2-0.drvb \
     vendor/asus/mofd-common/proprietary/vendor/firmware/01s5k8aay.drvb:system/vendor/firmware/01s5k8aay.drvb \
+    vendor/asus/mofd-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
+    vendor/asus/mofd-common/proprietary/lib/hw/keystore.moorefield.so:system/lib/hw/keystore.moorefield.so \
     vendor/asus/mofd-common/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
-    vendor/asus/mofd-common/proprietary/lib/hw/keystore.vendor.moorefield.so:system/lib/hw/keystore.vendor.moorefield.so \
-    vendor/asus/mofd-common/proprietary/lib/libstock_crypto.so:system/lib/libstock_crypto.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/asus/mofd-common/proprietary/vendor/lib/mediadrm/libplayreadydrmplugin.so:system/vendor/lib/mediadrm/libplayreadydrmplugin.so \
+    vendor/asus/mofd-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/asus/mofd-common/proprietary/vendor/lib/libseppr_hal.so:system/vendor/lib/libseppr_hal.so \
+    vendor/asus/mofd-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/asus/mofd-common/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
@@ -339,18 +342,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/hw/gralloc.moorefield.so:system/vendor/lib/hw/gralloc.moorefield.so \
+    vendor/asus/mofd-common/proprietary/etc/firmware/if.bin:system/etc/firmware/if.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3202_gff.img:system/etc/firmware/s3202_gff.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3202_ogs.img:system/etc/firmware/s3202_ogs.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3400_cgs.img:system/etc/firmware/s3400_cgs.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3400_igzo.img:system/etc/firmware/s3400_igzo.img \
     vendor/asus/mofd-common/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/asus/mofd-common/proprietary/lib/hw/flp.mofd_v1.so:system/lib/hw/flp.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/hw/gps.mofd_v1.so:system/lib/hw/gps.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
     vendor/asus/mofd-common/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/asus/mofd-common/proprietary/bin/houdini:system/bin/houdini \
     vendor/asus/mofd-common/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
-    vendor/asus/mofd-common/proprietary/lib/hw/lights.vendor.mofd_v1.so:system/lib/hw/lights.vendor.mofd_v1.so \
-    vendor/asus/mofd-common/proprietary/bin/intel_prop:system/bin/intel_prop \
     vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.prod:system/etc/firmware/msvdx.bin.prod \
     vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.verf:system/etc/firmware/msvdx.bin.verf \
     vendor/asus/mofd-common/proprietary/etc/firmware/topaz.bin.prod:system/etc/firmware/topaz.bin.prod \
@@ -375,6 +378,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
     vendor/asus/mofd-common/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
     vendor/asus/mofd-common/proprietary/bin/mmgr:system/bin/mmgr \
+    vendor/asus/mofd-common/proprietary/bin/mmgr_am.sh:system/bin/mmgr_am.sh \
     vendor/asus/mofd-common/proprietary/bin/nvm_server:system/bin/nvm_server \
     vendor/asus/mofd-common/proprietary/lib/libmcdr.so:system/lib/libmcdr.so \
     vendor/asus/mofd-common/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
@@ -384,6 +388,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libtcs.so:system/lib/libtcs.so \
     vendor/asus/mofd-common/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
     vendor/asus/mofd-common/proprietary/lib/librapid-ril-util.so:system/lib/librapid-ril-util.so \
+    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP/audiocomms_config/init.props:system/etc/catalog/DDO_EP/audiocomms_config/init.props \
+    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/DDO_EP/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/audiocomms_config/init.props:system/etc/catalog/V1_DSDA_NA/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/audiocomms_config/mamgr/xmm2.xml:system/etc/catalog/V1_DSDA_NA/audiocomms_config/mamgr/xmm2.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_DSDA_NA/audiocomms_config/mamgr/xmm1.xml \
@@ -392,10 +398,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/telephony_config/TDSCDMA_activate.overlay.xml:system/etc/catalog/V1_DSDA_NA/telephony_config/TDSCDMA_activate.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/telephony_config/band_config_update_NA.overlay.xml:system/etc/catalog/V1_DSDA_NA/telephony_config/band_config_update_NA.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/platform/init.props:system/etc/catalog/V1_DSDA_NA/platform/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_BB/telephony_config/init.props:system/etc/catalog/DDO_BB/telephony_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_BB/telephony_config/M2_7160.overlay.xml:system/etc/catalog/DDO_BB/telephony_config/M2_7160.overlay.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_BB/telephony_config/SIM_card_detection_activate.overlay.xml:system/etc/catalog/DDO_BB/telephony_config/SIM_card_detection_activate.overlay.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_BB/platform/init.props:system/etc/catalog/DDO_BB/platform/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_TW/audiocomms_config/init.props:system/etc/catalog/V1_DSDA_ZE550ML_TW/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_TW/audiocomms_config/mamgr/xmm2.xml:system/etc/catalog/V1_DSDA_ZE550ML_TW/audiocomms_config/mamgr/xmm2.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_TW/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_DSDA_ZE550ML_TW/audiocomms_config/mamgr/xmm1.xml \
@@ -427,12 +429,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V2_7262/telephony_config/TDSCDMA_activate.overlay.xml:system/etc/catalog/V2_7262/telephony_config/TDSCDMA_activate.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V2_7262/telephony_config/mmgr_ssic.overlay.xml:system/etc/catalog/V2_7262/telephony_config/mmgr_ssic.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V2_7262/platform/init.props:system/etc/catalog/V2_7262/platform/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7160/audiocomms_config/init.props:system/etc/catalog/DDO_EP_7160/audiocomms_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7160/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/DDO_EP_7160/audiocomms_config/mamgr/xmm1.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7160/telephony_config/init.props:system/etc/catalog/DDO_EP_7160/telephony_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7160/telephony_config/M2_7160_USB_switching.xml:system/etc/catalog/DDO_EP_7160/telephony_config/M2_7160_USB_switching.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7160/telephony_config/M2_7160.overlay.xml:system/etc/catalog/DDO_EP_7160/telephony_config/M2_7160.overlay.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7160/platform/init.props:system/etc/catalog/DDO_EP_7160/platform/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7262_PR2.2_engineering/audiocomms_config/init.props:system/etc/catalog/V1_7262_PR2.2_engineering/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7262_PR2.2_engineering/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_7262_PR2.2_engineering/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7262_PR2.2_engineering/telephony_config/UMTS_duplex_dynamic_switch.overlay.xml:system/etc/catalog/V1_7262_PR2.2_engineering/telephony_config/UMTS_duplex_dynamic_switch.overlay.xml \
@@ -503,13 +499,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaIir_V1_1.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaIir_V1_1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Structure/Audio/Realtek_RT5647.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Structure/Audio/Realtek_RT5647.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationVibrator.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationVibrator.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/init.props:system/etc/catalog/V1_DSDA/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/Readme.txt:system/etc/catalog/V1_DSDA/audiocomms_config/Readme.txt \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/mamgr/xmm2.xml:system/etc/catalog/V1_DSDA/audiocomms_config/mamgr/xmm2.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_DSDA/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/telephony_config/init.props:system/etc/catalog/V1_DSDA/telephony_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/telephony_config/V1_DSDA_ZE550ML_FULL_7262.xml:system/etc/catalog/V1_DSDA/telephony_config/V1_DSDA_ZE550ML_FULL_7262.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/telephony_config/TDSCDMA_activate.overlay.xml:system/etc/catalog/V1_DSDA/telephony_config/TDSCDMA_activate.overlay.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/telephony_config/UMTS_duplex_dynamic_switch.overlay.xml:system/etc/catalog/V1_DSDA/telephony_config/UMTS_duplex_dynamic_switch.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA/platform/init.props:system/etc/catalog/V1_DSDA/platform/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_TH/audiocomms_config/init.props:system/etc/catalog/V1_DSDA_ZE550ML_TH/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_TH/audiocomms_config/mamgr/xmm2.xml:system/etc/catalog/V1_DSDA_ZE550ML_TH/audiocomms_config/mamgr/xmm2.xml \
@@ -547,6 +546,71 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDS/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_DSDS/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDS/telephony_config/init.props:system/etc/catalog/V1_DSDS/telephony_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDS/platform/init.props:system/etc/catalog/V1_DSDS/platform/init.props \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/init.props:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/init.props \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/mamgr/xmm1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/ParameterFrameworkConfiguration.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/ParameterFrameworkConfiguration.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationRoute.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationRoute.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationVibrator.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationVibrator.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/AudioClass.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/AudioClass.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/CMESubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/CMESubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/IMCSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/IMCSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/PowerSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/PowerSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/ProbeSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/ProbeSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/PropertySubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/PropertySubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/Realtek_RT5647.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/Realtek_RT5647.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/SstSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/SstSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AcousticEchoCanceler_V1_6.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AcousticEchoCanceler_V1_6.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AmbientNoiseAdapter_V2_5.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AmbientNoiseAdapter_V2_5.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AutomaticGainControlAudio_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AutomaticGainControlAudio_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AutomaticGainControlVoice_V1_3.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/AutomaticGainControlVoice_V1_3.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/BandWidthExtender_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/BandWidthExtender_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/BeamformingAudio_V1.0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/BeamformingAudio_V1.0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/BeamformingVoice_V1.1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/BeamformingVoice_V1.1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ComfortNoiseInjector_V1_1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ComfortNoiseInjector_V1_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ComfortNoiseInjector_V1_2.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ComfortNoiseInjector_V1_2.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/CommonAlgoTypes.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/CommonAlgoTypes.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Dcr.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Dcr.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/DualMicrophoneNoiseReduction_V1_5.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/DualMicrophoneNoiseReduction_V1_5.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/DynamicRangeProcessor_V1_4.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/DynamicRangeProcessor_V1_4.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/EchoDelayLine_V1_1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/EchoDelayLine_V1_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaFir_V1_1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaFir_V1_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaIir_V1_1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaIir_V1_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Gain.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Gain.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/GainLossControl_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/GainLossControl_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Lpro.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Lpro.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Mdrc.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/Mdrc.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/MediaAlgos_Gen3_5.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/MediaAlgos_Gen3_5.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ModuleVoiceProcessingLock_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ModuleVoiceProcessingLock_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/MultibandDynamicRangeProcessor_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/MultibandDynamicRangeProcessor_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/NoiseReduction_V1_1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/NoiseReduction_V1_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/NonLinearFilter_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/NonLinearFilter_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ReferenceLine_V1_1.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ReferenceLine_V1_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SbaFir.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SbaFir.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SbaIir.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SbaIir.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SlowVoice_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SlowVoice_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SpectralEchoReduction_V2_5.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/SpectralEchoReduction_V2_5.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ToneGenerator_V2_4.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/ToneGenerator_V2_4.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/TrafficNoiseReduction_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/TrafficNoiseReduction_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/VoiceAlgos_Gen3_5.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/VoiceAlgos_Gen3_5.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/VoiceVolume.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/VoiceVolume.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/WindNoiseReductionAudio_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/WindNoiseReductionAudio_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/WindNoiseReductionVoice_V1_0.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Audio/intel/WindNoiseReductionVoice_V1_0.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/DebugFsSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/DebugFsSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteClass.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteClass.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem-CommonCriteria.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem-CommonCriteria.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem-RoutesTypes.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem-RoutesTypes.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Vibrator/MiscConfigurationSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Vibrator/MiscConfigurationSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml:system/etc/catalog/V1_EUSPEC_COMM/audiocomms_config/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/platform/init.props:system/etc/catalog/V1_EUSPEC_COMM/platform/init.props \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/telephony_config/SIM_card_detection_activate.overlay.xml:system/etc/catalog/V1_EUSPEC_COMM/telephony_config/SIM_card_detection_activate.overlay.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/telephony_config/band_config_update_NA_EU.overlay.xml:system/etc/catalog/V1_EUSPEC_COMM/telephony_config/band_config_update_NA_EU.overlay.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_EUSPEC_COMM/telephony_config/init.props:system/etc/catalog/V1_EUSPEC_COMM/telephony_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/ParameterFrameworkConfiguration.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/ParameterFrameworkConfiguration.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationRoute.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationRoute.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem-CommonCriteria.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Route/RouteSubsystem-CommonCriteria.xml \
@@ -561,6 +625,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/AudioClass.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/AudioClass.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/CMESubsystem.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/CMESubsystem.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/PowerSubsystem.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/PowerSubsystem.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/ProbeSubsystem.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/ProbeSubsystem.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/PropertySubsystem.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/PropertySubsystem.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/SstSubsystem.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/SstSubsystem.xml \
@@ -602,6 +667,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaIir_V1_1.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/intel/FbaIir_V1_1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/Realtek_RT5647.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Structure/Audio/Realtek_RT5647.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationVibrator.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/ParameterFrameworkConfigurationVibrator.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml:system/etc/catalog/V1_7260/audiocomms_config/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/init.props:system/etc/catalog/V1_7260/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/audiocomms_config/Readme.txt:system/etc/catalog/V1_7260/audiocomms_config/Readme.txt \
@@ -610,21 +677,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/telephony_config/band_config_update_NA_EU.overlay.xml:system/etc/catalog/V1_7260/telephony_config/band_config_update_NA_EU.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/telephony_config/SIM_card_detection_activate.overlay.xml:system/etc/catalog/V1_7260/telephony_config/SIM_card_detection_activate.overlay.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7260/platform/init.props:system/etc/catalog/V1_7260/platform/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP/audiocomms_config/init.props:system/etc/catalog/DDO_EP/audiocomms_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/DDO_EP/audiocomms_config/mamgr/xmm1.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP/telephony_config/M2_7160_USB_switching.xml:system/etc/catalog/DDO_EP/telephony_config/M2_7160_USB_switching.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML_CN/audiocomms_config/init.props:system/etc/catalog/V1_SINGLE_ZX550ML_CN/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML_CN/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_SINGLE_ZX550ML_CN/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML_CN/telephony_config/V1_SINGLE_ZX550ML_CN_726x.xml:system/etc/catalog/V1_SINGLE_ZX550ML_CN/telephony_config/V1_SINGLE_ZX550ML_CN_726x.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML_CN/telephony_config/init.props:system/etc/catalog/V1_SINGLE_ZX550ML_CN/telephony_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML_CN/platform/init.props:system/etc/catalog/V1_SINGLE_ZX550ML_CN/platform/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/audiocomms_config/init.props:system/etc/catalog/DDO_EP_7260/audiocomms_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/DDO_EP_7260/audiocomms_config/mamgr/xmm1.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/telephony_config/init.props:system/etc/catalog/DDO_EP_7260/telephony_config/init.props \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/telephony_config/M2_7260_mmgr.overlay.xml:system/etc/catalog/DDO_EP_7260/telephony_config/M2_7260_mmgr.overlay.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/telephony_config/M2_7260_config.overlay.xml:system/etc/catalog/DDO_EP_7260/telephony_config/M2_7260_config.overlay.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/telephony_config/SIM_card_detection_activate.overlay.xml:system/etc/catalog/DDO_EP_7260/telephony_config/SIM_card_detection_activate.overlay.xml \
-    vendor/asus/mofd-common/proprietary/etc/catalog/DDO_EP_7260/platform/init.props:system/etc/catalog/DDO_EP_7260/platform/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML/audiocomms_config/init.props:system/etc/catalog/V1_SINGLE_ZX550ML/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_SINGLE_ZX550ML/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_SINGLE_ZX550ML/telephony_config/init.props:system/etc/catalog/V1_SINGLE_ZX550ML/telephony_config/init.props \
@@ -663,6 +720,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_US/telephony_config/init.props:system/etc/catalog/V1_DSDA_ZE550ML_US/telephony_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_ZE550ML_US/platform/init.props:system/etc/catalog/V1_DSDA_ZE550ML_US/platform/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_no_modem/platform/init.props:system/etc/catalog/V1_no_modem/platform/init.props \
+    vendor/asus/mofd-common/proprietary/etc/catalog/V1_no_modem/telephony_config/init.props:system/etc/catalog/V1_no_modem/telephony_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7262_PR2_CMCC/audiocomms_config/init.props:system/etc/catalog/V1_7262_PR2_CMCC/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7262_PR2_CMCC/audiocomms_config/mamgr/xmm1.xml:system/etc/catalog/V1_7262_PR2_CMCC/audiocomms_config/mamgr/xmm1.xml \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_7262_PR2_CMCC/telephony_config/band_config_update_CMCC.overlay.xml:system/etc/catalog/V1_7262_PR2_CMCC/telephony_config/band_config_update_CMCC.overlay.xml \
@@ -690,6 +748,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7260_conf_5.xml:system/etc/telephony/mmgr_7260_conf_5.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7260_conf_6.xml:system/etc/telephony/mmgr_7260_conf_6.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7260_conf_7.xml:system/etc/telephony/mmgr_7260_conf_7.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7260_conf_8.xml:system/etc/telephony/mmgr_7260_conf_8.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7260_conf_10.xml:system/etc/telephony/mmgr_7260_conf_10.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7360_conf_1.xml:system/etc/telephony/mmgr_7360_conf_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7360_conf_2.xml:system/etc/telephony/mmgr_7360_conf_2.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_7360_conf_3.xml:system/etc/telephony/mmgr_7360_conf_3.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/mmgr_fw_default.xml:system/etc/telephony/mmgr_fw_default.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_2230_conf_1.txt:system/etc/telephony/rril_2230_conf_1.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_6360_conf_1.txt:system/etc/telephony/rril_6360_conf_1.txt \
@@ -698,14 +761,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7160_conf_2.txt:system/etc/telephony/rril_7160_conf_2.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7160_conf_3.txt:system/etc/telephony/rril_7160_conf_3.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7160_conf_4.txt:system/etc/telephony/rril_7160_conf_4.txt \
+    vendor/asus/mofd-common/proprietary/etc/telephony/rril_7160_conf_5.txt:system/etc/telephony/rril_7160_conf_5.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_1_ATT.txt:system/etc/telephony/rril_7260_conf_1_ATT.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_1.txt:system/etc/telephony/rril_7260_conf_1.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_2_ATT.txt:system/etc/telephony/rril_7260_conf_2_ATT.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_2.txt:system/etc/telephony/rril_7260_conf_2.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_3.txt:system/etc/telephony/rril_7260_conf_3.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_4.txt:system/etc/telephony/rril_7260_conf_4.txt \
+    vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_5.txt:system/etc/telephony/rril_7260_conf_5.txt \
+    vendor/asus/mofd-common/proprietary/etc/telephony/rril_7260_conf_6.txt:system/etc/telephony/rril_7260_conf_6.txt \
+    vendor/asus/mofd-common/proprietary/etc/telephony/rril_7360_conf_1.txt:system/etc/telephony/rril_7360_conf_1.txt \
+    vendor/asus/mofd-common/proprietary/etc/telephony/rril_7360_conf_2.txt:system/etc/telephony/rril_7360_conf_2.txt \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM6360_CONF_1.xml:system/etc/telephony/XMM6360_CONF_1.xml \
-    vendor/asus/mofd-common/proprietary/etc/telephony/XMM6360_CONF_2.xml:system/etc/telephony/XMM6360_CONF_2.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM6360_CONF_3.xml:system/etc/telephony/XMM6360_CONF_3.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7160_CONF_1.xml:system/etc/telephony/XMM7160_CONF_1.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7160_CONF_2.xml:system/etc/telephony/XMM7160_CONF_2.xml \
@@ -714,33 +781,39 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7160_CONF_6.xml:system/etc/telephony/XMM7160_CONF_6.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7160_CONF_7.xml:system/etc/telephony/XMM7160_CONF_7.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7160_CONF_8.xml:system/etc/telephony/XMM7160_CONF_8.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/XMM7160_CONF_9.xml:system/etc/telephony/XMM7160_CONF_9.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_10.xml:system/etc/telephony/XMM7260_CONF_10.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_11.xml:system/etc/telephony/XMM7260_CONF_11.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_12.xml:system/etc/telephony/XMM7260_CONF_12.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_13.xml:system/etc/telephony/XMM7260_CONF_13.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_1.xml:system/etc/telephony/XMM7260_CONF_1.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_3.xml:system/etc/telephony/XMM7260_CONF_3.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_6.xml:system/etc/telephony/XMM7260_CONF_6.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_7.xml:system/etc/telephony/XMM7260_CONF_7.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_8.xml:system/etc/telephony/XMM7260_CONF_8.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_9.xml:system/etc/telephony/XMM7260_CONF_9.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/XMM7360_CONF_1.xml:system/etc/telephony/XMM7360_CONF_1.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/XMM7360_CONF_2.xml:system/etc/telephony/XMM7360_CONF_2.xml \
+    vendor/asus/mofd-common/proprietary/etc/telephony/XMM7360_CONF_3.xml:system/etc/telephony/XMM7360_CONF_3.xml \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/mmgr_upgrade.sh:system/vendor/firmware/telephony/mmgr_upgrade.sh \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/sim_detect_726x.tlv:system/vendor/firmware/telephony/sim_detect_726x.tlv \
-    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_2230_REV20_1527.00_V1.1_ASUS_SPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_2230_REV20_1527.00_V1.1_ASUS_SPI_FLASHLESS.fls \
-    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1527.02_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1527.02_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_2230_REV20_1546.00_V1.1_ASUS_SPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_2230_REV20_1546.00_V1.1_ASUS_SPI_FLASHLESS.fls \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1603.09_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1603.09_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_CN_726x.tlv:system/vendor/firmware/telephony/ze550ml_CN_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_JP_726x.tlv:system/vendor/firmware/telephony/ze550ml_JP_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_TH_726x.tlv:system/vendor/firmware/telephony/ze550ml_TH_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_TW_726x.tlv:system/vendor/firmware/telephony/ze550ml_TW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_US_726x.tlv:system/vendor/firmware/telephony/ze550ml_US_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_WW_726x.tlv:system/vendor/firmware/telephony/ze550ml_WW_726x.tlv \
-    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_TW_726x.tlv:system/vendor/firmware/telephony/zx550ml_TW_726x.tlv \
-    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_WW_726x.tlv:system/vendor/firmware/telephony/zx550ml_WW_726x.tlv \
     vendor/asus/mofd-common/proprietary/bin/sensorhubd:system/bin/sensorhubd \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002:system/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002 \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000 \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001 \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001 \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.ze550ml:system/etc/firmware/psh.bin.ze550ml \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.ze551ml:system/etc/firmware/psh.bin.ze551ml \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.zx550ml:system/etc/firmware/psh.bin.zx550ml \
     vendor/asus/mofd-common/proprietary/lib/hw/sensors.mofd_v1.so:system/lib/hw/sensors.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/libcontextarbitor.so:system/lib/libcontextarbitor.so \
